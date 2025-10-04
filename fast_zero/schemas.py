@@ -8,3 +8,7 @@ class UserSchema(BaseModel):
     email: EmailStr
     password: str
     is_active: bool
+
+class UserPublic(BaseModel):
+    username: str
+    email: EmailStr
