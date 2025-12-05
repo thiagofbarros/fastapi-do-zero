@@ -16,6 +16,9 @@ jobs:
     outputs:
       IMAGE_NAME: ${{ steps.set-image-name.outputs.IMAGE_NAME }}
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+      
       - name: Set Image Name
         id: set-image-name
         run: |
