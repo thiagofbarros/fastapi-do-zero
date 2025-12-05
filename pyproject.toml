@@ -1,6 +1,6 @@
 [project]
 name = "fast-zero"
-version = "0.1.0"
+version = "0.3.2"
 description = ""
 authors = [
     {name = "Thiago Barros",email = "thiagofbarros@outlook.com"}
